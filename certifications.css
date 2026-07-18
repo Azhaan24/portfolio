@@ -1,0 +1,293 @@
+:root
+{
+    --bg:#050a17;
+    --line:#2a3d61;
+    --ink:#f3f6ff;
+    --muted:#b7c2da
+}
+
+
+*
+{
+    box-sizing:border-box
+}
+
+
+body
+{
+    margin:0;
+    color:var(--ink);
+    font:15px 'DM Sans',sans-serif;
+    background:radial-gradient(circle at 20% 10%,#193b7b55,transparent 28%),radial-gradient(circle at 85% 25%,#56218a50,transparent 27%),var(--bg)}header,main,footer{max-width:1200px;
+    margin:auto;
+    padding-left:24px;
+    padding-right:24px
+    }
+    
+
+    header
+    {
+        height:76px;
+        border-bottom:1px solid #1e3152;
+        display:flex;
+        align-items:center;
+        justify-content:space-between
+    }
+    
+    .brand
+    {
+        display:flex;
+        gap:14px;
+        align-items:center;
+        text-decoration:none;
+        color:#fff
+    }
+    
+    
+    .brand span
+    {
+        font:bold 30px Outfit;
+        color:#5272ff;
+        letter-spacing:-7px;
+        margin-right:7px
+    }
+    
+    
+    .brand b
+    {
+        font:600 18px Outfit
+    }
+    
+    
+    .back
+    {
+        color:#dce8ff;
+        text-decoration:none;
+        border:1px solid #3d5278;
+        border-radius:7px;
+        padding:10px 14px
+    }
+    
+    
+    .back i
+    {
+        color:#55a5ff;
+        margin-right:8px
+    }
+    
+    
+    main
+    {
+        padding-top:54px;
+        padding-bottom:40px
+    }
+    
+    
+    .eyebrow
+    {
+        color:#8e5dff;
+        font-weight:700;
+        font-size:12px;
+        letter-spacing:2px;
+        margin:0 0 9px
+    }
+    
+    
+    h1
+    {
+        font:800 43px Outfit;
+        margin:0
+    }
+    
+    
+    h1 span
+    {
+        color:transparent;
+        background:linear-gradient(90deg,#a946e9,#258eff);
+        background-clip:text
+    }
+    
+    
+    .intro
+    {
+        color:var(--muted);
+        line-height:1.65;
+        max-width:700px;
+        margin:15px 0 30px
+    }
+    
+    
+    .certificate-grid
+    {
+        display:grid;
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:20px
+    }
+    
+    
+    .certificate
+    {
+        border:1px solid var(--line);
+        border-radius:12px;
+        overflow:hidden;
+        background:linear-gradient(135deg,#0d1930,#081121);
+        transition:transform .2s,border-color .2s
+    }
+    
+    
+    .certificate:hover
+    {
+        transform:translateY(-4px);
+        border-color:#647edf
+    }
+    
+    
+    .certificate>a
+    {
+        display:block;
+        background:#fff;
+        line-height:0
+    }
+    
+    
+    .certificate img
+    {
+        width:100%;
+        height:250px;
+        object-fit:cover;
+        object-position:center;
+        transition:transform .25s
+    }
+    
+    
+    .certificate:hover img
+    {
+        transform:scale(1.025)
+    }
+    
+    
+    .certificate>div
+    {
+        padding:18px 20px 20px;
+        position:relative
+    }
+    
+    
+    .certificate i
+    {
+        position:absolute;
+        right:20px;
+        top:18px;
+        color:#36a2ff;
+        font-size:26px
+    }
+    
+    
+    .certificate:nth-child(3) i
+    {
+        color:#f0a42d
+    }
+    
+    
+    .certificate:nth-child(4) i
+    {
+        color:#55d385
+    }
+    
+    
+    .certificate:nth-child(5) i
+    {
+        color:#d371ff
+    }
+    
+    
+    .certificate:nth-child(6) i
+    {
+        color:#f6ae2d
+    }
+    
+    
+    .issuer
+    {
+        margin:0;
+        color:#7faaff;
+        font-size:12px;
+        font-weight:700
+    }
+    
+
+    .certificate h2
+    {
+        font:600 21px Outfit;
+        margin:6px 38px 8px 0;
+        line-height:1.2
+    }
+    
+    
+    .certificate div>p:not(.issuer)
+    {
+        color:#c1cbdf;
+        line-height:1.55;
+        margin:0 0 12px;
+        font-size:13px
+    }
+    
+    
+    .certificate small
+    {
+        color:#8da0c2;
+        font-weight:600
+    }
+    
+    
+    footer
+    {
+        border-top:1px solid #1e3152;
+        text-align:center;
+        padding-top:22px;
+        padding-bottom:22px;
+        color:#98a7c4;
+        font-size:13px
+    }
+    
+    
+    @media(max-width:650px)
+    {
+        header
+        {
+            height:auto;
+            padding-top:16px;
+            padding-bottom:16px;
+            gap:12px
+        }
+        
+        .brand b
+        {
+            display:none
+        }
+        
+        .back
+        {
+            font-size:12px
+        }
+        
+        main
+        {
+            padding-top:34px
+        }
+        
+        h1
+        {
+            font-size:34px
+        }
+        
+        .certificate-grid
+        {
+            grid-template-columns:1fr
+        }
+        
+        .certificate img
+        {
+            height:210px
+        }
+    }

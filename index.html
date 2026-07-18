@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Syed Azhaan Rizvi, a full-stack and Android developer." />
+  <title>Syed Azhaan Rizvi | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="override.css" />
+  <style>
+    /* Self-contained light-theme contrast safeguards. */
+    body.light
+    {
+      color: #081a3c !important;
+    }
+    .light .card {
+      color: #081a3c !important;
+      background: #ffffff !important;
+      border-color: #183b70 !important;
+    }
+    .light .info span, .light .info b, .light .project p, .light .project h4, .light .project a,
+    .light .github-note, .light .timeline p, .light .timeline b, .light .timeline em,
+    .light .certs b, .light .certs small, .light .contact p, .light .contact > a,
+    .light .stat-box span, .light .bars label, .light .months, .light .most-used,
+    .light footer p, .light .brand small {
+      color: #102b55 !important;
+      opacity: 1 !important;
+    }
+    .light .about-card p, .light .lede {
+      color: #102b55 !important;
+    }
+    .light .section-title, .light .about h3, .light h1, .light h2, .light h3, .light h4,
+    .light h5, .light h6, .light b, .light strong {
+      color: #061734 !important;
+    }
+    .light .section-title i, .light .about h3 i, .light .blue, .light .skill i,
+    .light .certs i, .light .most-used span i, .light .contact > a i {
+      color: #0061c9 !important; opacity: 1 !important;
+    }
+    .light .green {
+      color: #04783c !important;
+    }
+    .light .tags span {
+      color: #092d61 !important; background: #d7e9ff !important; border: 1px solid #88addc !important;
+    }
+    .light .filters button {
+      color: #102b55 !important;
+      background: #edf3ff !important;
+      border-color: #5476a8 !important;
+    }
+    .light .filters .selected {
+      color: #fff !important;
+      background: linear-gradient(100deg,#265eea,#7b22d6) !important;
+    }
+    .light .socials a {
+      color: #102b55 !important;
+      border-color: #385c8e !important;
+    }
+    .light .hero h2 {
+      color: #075bb9 !important;
+    }
+    .light .hero h2 i {
+      color: #102b55 !important;
+    }
+    .light .contact-form input, .light .contact-form textarea
+    {
+      color: #061734 !important;
+      background: #fff !important;
+      border-color: #456b9e !important; }
+    .light .contact-form input::placeholder, .light .contact-form textarea::placeholder
+    {
+      color: #405b83 !important;
+      opacity: 1 !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-glow"></div>
+  <header class="nav wrap">
+    <a class="brand" href="#home" aria-label="Home">
+      <span>AR</span>
+      <b>Syed Azhaan Rizvi</b>
+    </a>
+    <button class="menu-btn" aria-label="Open navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav>
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme" aria-label="Toggle theme">
+        <i class="fa-regular fa-moon"></i>
+      </button>
+      <a class="btn gradient mini" href="assets/Syed-Azhaan-Rizvi-Resume.pdf" download>
+        <i class="fa-solid fa-download"></i>
+        
+        Download Resume
+      
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          
+          Hi, I'm
+        
+        </p>
+        <h1>
+          
+          Syed <span>Azhaan Rizvi</span>
+        
+        </h1>
+        <h2>
+          
+          Software Engineer
+          
+          <i>|</i>
+          
+          Full Stack Developer
+          
+          <i>|</i>
+          
+          <br>Mobile App Developer
+        
+        </h2>
+        <p class="lede">
+          
+          Building scalable web applications, mobile apps, backend systems, APIs, and solving real-world problems through code.
+        
+        </p>
+        <div class="hero-buttons">
+          <a class="btn gradient" href="#projects">
+           
+            View Projects 
+           
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a class="btn outline" href="assets/Syed-Azhaan-Rizvi-Resume.pdf" download>
+            
+            Download Resume
+            
+            <i class="fa-solid fa-download"></i>
+          </a>
+          <a class="btn outline" href="#contact">
+            
+            Contact Me
+            
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/Azhaan24" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/syed-azhaan-rizvi/" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="mailto:syedazhaanrizvi@gmail.com" aria-label="Email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a href="#contact" aria-label="Location">
+            <i class="fa-solid fa-location-dot"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="bubble csharp">
+          
+          C#
+        
+        </div>
+        <div class="bubble dotnet">
+          
+          .NET
+        
+        </div>
+        <div class="bubble angular">
+          <i class="fa-brands fa-angular"></i>
+        </div>
+        <div class="bubble java">
+          <i class="fa-brands fa-java"></i>
+          <small>
+            
+            Java
+          
+          </small>
+        </div>
+        <div class="code-window">
+          <div class="dots">
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+          <div class="code-lines">
+            <b></b>
+            <b></b>
+            <b></b>
+            <b></b>
+            <b></b>
+            <b></b>
+            <b></b>
+          </div>
+        </div>
+        <div class="orb o1"></div>
+        <div class="orb o2"></div>
+      </div>
+    </section>
+    <section id="about" class="about wrap">
+      <article class="about-card card">
+        <h3>
+          <i class="fa-regular fa-user"></i>
+          
+          About Me
+        
+        </h3>
+        <p>
+          
+          I'm a software engineer passionate about designing and developing modern applications across web, mobile, and backend platforms. I enjoy learning new technologies, building scalable systems, and solving complex problems. My experience spans full-stack web development, Android applications, REST APIs, databases, cloud-ready architectures, and software engineering best practices.
+        
+        </p>
+      </article>
+      <div class="info-grid">
+        <div class="info card">
+          <i class="fa-solid fa-location-dot blue"></i>
+          <span>
+            <b>Location</b>
+            Udaipur, Rajasthan, India
+          </span>
+        </div>
+        <div class="info card">
+          <i class="fa-regular fa-envelope green"></i>
+          <span>
+            <b>Email</b>
+            syedazhaanrizvi@gmail.com
+          </span>
+        </div>
+        <div class="info card">
+          <i class="fa-solid fa-graduation-cap blue"></i>
+          <span>
+            <b>Education</b>
+            B.Tech, RTU Kota | 7.08 CGPA</span>
+          </div>
+          <div class="info card">
+            <i class="fa-regular fa-calendar-check green"></i>
+            <span><b>Availability</b>
+              Open to Opportunities
+            </span>
+          </div>
+        </div>
+      </section>
+    <section id="skills" class="wrap section">
+      <h3 class="section-title">
+        <i class="fa-solid fa-code"></i>
+        
+        Skills &amp; Technologies
+      
+      </h3>
+      <div class="filters">
+        <button class="selected">
+          
+          All
+        
+        </button>
+        <button>
+          
+          Languages
+        
+        </button>
+        <button>
+          
+          Frontend
+        
+        </button>
+        <button>
+          
+          Backend
+        
+        </button>
+        <button>
+          
+          Mobile
+        
+        </button>
+        <button>
+          
+          Databases
+        
+        </button>
+        <button>
+          
+          Tools &amp; Others
+        
+        </button>
+      </div>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </section>
+    <section id="projects" class="wrap section">
+      <div class="section-heading">
+        <h3 class="section-title">
+          <i class="fa-regular fa-folder"></i>
+          
+          Featured Projects
+        
+        </h3>
+        <a href="https://github.com/Azhaan24?tab=repositories" target="_blank">
+          
+          View All Projects
+          
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+      <p class="github-note">
+        
+        More Android projects from GitHub:
+        
+        <a href="https://github.com/Azhaan24/Guess-The-Number-Game" target="_blank">
+          
+          Guess the Number
+        
+        </a>
+        
+        ,
+        
+        <a href="https://github.com/Azhaan24/Calculator" target="_blank">
+          
+          Calculator
+        
+        </a>
+        
+        ,
+        
+        <a href="https://github.com/Azhaan24/Math-Game" target="_blank">
+          
+          Math Game
+        
+        </a>
+        
+        ,
+        
+        <a href="https://github.com/Azhaan24/To-Do-List" target="_blank">
+          
+          To-Do List
+        
+        </a>
+        
+        ,
+        
+        <a href="https://github.com/Azhaan24/Information-Book" target="_blank">
+          
+          Information Book
+        
+        </a>
+        
+        and
+        
+        <a href="https://github.com/Azhaan24/Photo-Album" target="_blank">
+          
+          Photo Album
+        
+        </a>
+        
+        .
+      
+      </p>
+    </section>
+    <section id="journey" class="wrap dashboard">
+      <article class="journey">
+        <h3 class="section-title">
+          <i class="fa-regular fa-calendar"></i>
+         
+          My Journey
+        
+        </h3>
+        <div class="timeline">
+          <div>
+            <em>2023</em>
+            <p>
+              
+              <b>Web Development</b>
+              Learned Python, HTML, CSS, JavaScript and built web projects.
+            
+            </p>
+          </div>
+          <div>
+            <em>2024</em>
+            <p>
+              
+              <b>Started Learning Java</b>
+              Began programming journey with core Java concepts.
+            
+            </p>
+          </div>
+          <div>
+            <em>2024</em>
+            <p>
+
+              <b>Full Stack Development</b>
+              Working with Java, Springboot, SQL Server and more.
+            
+            </p>
+          </div>
+          <div>
+            <em>2025</em>
+            <p>
+              
+              <b>Android Development</b>
+              Built Android apps and games, explored Firebase.
+            
+            </p>
+          </div>
+          <div>
+            <em>2026</em>
+            <p>
+              
+              <b>.NET Development</b>
+              Built Full Stack Web Application using Angular, ASP .NET Core, C#, and Databases.</p>
+            
+            </div>
+            <div>
+              
+              <em>Now</em>
+              <p>
+                
+                <b>Exploring Microservices</b>
+                Learning Docker, cloud and system design.
+              
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="stats">
+          <h3 class="section-title">
+            <i class="fa-brands fa-github"></i>
+            
+            GitHub Stats
+          
+          </h3>
+          <div class="stat-box">
+            <span>
+              
+              Repositories
+              
+              <b>8+</b>
+            
+            </span>
+            <span>
+              
+              Android &amp; full-stack projects
+              
+              <b>10+</b>
+            </span>
+            <span>
+              
+              Languages
+              
+              <b>Java, C#, JS</b>
+            </span>
+            <span>
+              
+              Focus 
+              
+              <b>Clean APIs</b>
+            </span>
+          </div>
+          <h4>
+            
+            Top Languages
+          
+          </h4>
+          <div class="bars">
+            <label>
+              
+              Java <i style="width:72%"></i>
+            </label>
+            <label>
+              
+              C# <i style="width:54%"></i>
+            
+            </label>
+            <label>
+              
+              JavaScript <i style="width:44%"></i>
+            
+            </label><label>
+              
+              HTML/CSS <i style="width:38%"></i>
+            
+            </label>
+          </div>
+        </article>
+        <article class="contributions card">
+          <h4>
+            
+            GitHub Contribution Graph
+          
+          </h4>
+          <div class="months">
+            Jan　 Feb　 Mar　 Apr　 May　 Jun
+          </div>
+          <div class="heatmap" id="heatmap"></div>
+          <div class="most-used">
+            
+            <b>Most Used</b>
+            <span>
+              <i class="fa-solid fa-code"></i>
+              
+              Visual Studio Code
+            
+            </span>
+            <span>
+              <i class="fa-brands fa-android"></i>
+              
+              Android Studio
+            
+            </span>
+            <span>
+              <i class="fa-solid fa-database"></i>
+              
+              SQL Server
+            
+            </span>
+            <span>
+              <i class="fa-brands fa-docker"></i>
+              
+              Docker
+            
+            </span>
+          </div>
+        </article>
+      </section>
+
+    <section id="certifications" class="wrap bottom-grid">
+      <article>
+        <div class="section-heading">
+          <h3 class="section-title">
+            <i class="fa-solid fa-briefcase"></i>
+            
+            Certifications
+          
+          </h3>
+          <a href="certifications.html">
+            
+            View All <i class="fa-solid fa-arrow-right"></i>
+          
+          </a>
+        </div>
+        <div class="certs">
+          <div class="card">
+            <i class="fa-brands fa-android"></i>
+            
+            <b>Android App Development</b>
+            <small>Training</small>
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-java"></i>
+            
+            <b>Java Programming</b>
+            <small>Assessment</small>
+          
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-figma"></i>
+            
+            <b>UI/UX Design with Figma</b>
+            <small>Great Learning</small>
+          
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-code"></i>
+            
+            <b>Spring Boot Development</b>
+            <small>Course</small>
+          
+          </div>
+        </div>
+      </article>
+      <article id="contact" class="contact">
+        <h3 class="section-title">
+          <i class="fa-regular fa-paper-plane"></i>
+          
+          Let's Connect
+        
+        </h3>
+        <p>
+          
+          Have a project in mind or want to work together? Feel free to reach out!
+        
+        </p>
+        <a href="mailto:syedazhaanrizvi@gmail.com">
+          <i class="fa-regular fa-envelope"></i>
+          
+          syedazhaanrizvi@gmail.com
+        
+        </a>
+        
+        <a href="tel:+916376200487">
+          <i class="fa-solid fa-phone"></i>
+          
+          +91 6376200487
+        </a>
+        <a href="#contact">
+          <i class="fa-solid fa-location-dot"></i>
+          
+          Udaipur, Rajasthan, India
+        
+        </a>
+      </article>
+      
+      <form class="contact-form card" onsubmit="sendMessage(event)">
+        <input required placeholder="Your Name">
+        <input required type="email" placeholder="Your Email">
+        <input placeholder="Subject">
+        <textarea required placeholder="Message"></textarea>
+        <button class="btn gradient">
+          
+          Send Message
+          
+          <i class="fa-regular fa-paper-plane"></i>
+        </button>
+      </form>
+    </section>
+  </main>
+  <footer class="wrap">
+    <a class="brand" href="#home">
+      <span>
+        
+        AR
+      
+      </span>
+      
+      <b>Syed Azhaan Rizvi
+        <small>© 2026 All rights reserved.</small>
+      </b>
+    </a>
+    <p>
+      «&nbsp; Code. Learn. Build. Repeat. &nbsp;»
+    </p>
+    <div class="socials">
+      <a href="https://github.com/Azhaan24">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/syed-azhaan-rizvi/">
+        <i class="fa-brands fa-linkedin"></i></a><a href="mailto:syedazhaanrizvi@gmail.com">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>

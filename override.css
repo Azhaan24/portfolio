@@ -1,0 +1,20 @@
+/* Contrast refinements for light mode. Loaded after the main stylesheet. */
+.light{--bg:#eef4ff;--panel:#fff;--ink:#091633;--muted:#354462;background-image:radial-gradient(circle at 74% 8%,#b6cef955,transparent 26%),radial-gradient(circle at 20% 48%,#d8c3fa55,transparent 22%)}
+.light .card{background:linear-gradient(135deg,#fff,#f4f7ff);border-color:#b8c8e4;box-shadow:0 2px 9px #7891b71c}
+.light .brand,.light nav a,.light .theme{color:#091633}
+.light .lede,.light .about-card p,.light .project p,.light .timeline p,.light .contact p{color:#253653}
+.light .info span,.light .certs small,.light .github-note,.light footer p,.light .months{color:#435575}
+.light .info b,.light .project h4,.light .project a,.light .certs b,.light .timeline b,.light .stat-box span,.light .bars label,.light .most-used,.light .contact>a{color:#0b1935}
+.light .filters button{background:#e4ecfa;color:#172745;border-color:#a9bbd9}
+.light .socials a{color:#132340;border-color:#8fa6ca}.light .btn.outline{background:#fff;color:#0d1c38;border-color:#60779f}
+.light .contact-form input,.light .contact-form textarea{background:#fff;color:#10203c;border-color:#9db1d2}
+.light .contact-form input::placeholder,.light .contact-form textarea::placeholder{color:#536889}
+.light footer{border-color:#bdcae0}.light .timeline{border-color:#8875dd}.light .stat-box,.light .most-used{border-color:#b8c8e4}.light .code-window{background:#eaf1ff}
+.light h1,.light h2,.light h3,.light h4,.light h5,.light h6,.light b,.light strong{color:#07142e}
+.light .section-title,.light .about h3,.light .section-heading>a,.light .github-note a{color:#142b63}
+.light .section-title i,.light .about h3 i,.light .blue,.light .most-used span i,.light .contact>a i{color:#005ec9}
+.light .green{color:#08783b}.light .skill i,.light .certs i{color:#075cbf}.light .skill b{color:#0a1e43}
+.light .skill:nth-child(1) i,.light .skill:nth-child(5) i{color:#b52d1c}.light .skill:nth-child(3) i{color:#896800}.light .skill:nth-child(7) i{color:#075cbf}
+.light .tags span{background:#d7e7ff;color:#0c356f;border:1px solid #acc8ee}.light .project a:last-child{color:#004eae}
+.light .timeline em,.light .contributions h4{color:#1e3152}.light .heatmap i{background:#2d6553}.light .heatmap .l1{background:#147040}.light .heatmap .l2{background:#208e4b}.light .heatmap .l3{background:#35ad57}.light .heatmap .l4{background:#76c84b}
+.light .filters .selected{color:#fff}.light .hero h2{color:#075cbe}.light .hero h2 i{color:#263958}.light .eyebrow{color:#6330b1}
